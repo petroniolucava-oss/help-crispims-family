@@ -74,6 +74,7 @@ h2{font-family:'Lora',serif;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;c
 .hero-left>*:nth-child(4){animation-delay:0.55s}
 .hero-left>*:nth-child(5){animation-delay:0.7s}
 .hero-left>*:nth-child(6){animation-delay:0.85s}
+@media(max-width:600px){.binance-box div[style*="grid-template-columns:1fr 1fr"]{grid-template-columns:1fr}}
 @media(max-width:768px){
   .hero{grid-template-columns:1fr;min-height:auto}
   .hero-left{padding:52px 24px}
@@ -192,8 +193,37 @@ h2{font-family:'Lora',serif;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;c
     <h2>Any amount matters.<br>Every dollar is recorded here.</h2>
     <div class="story-text">
       <p>My goal is <strong>$5,500 USD</strong> &#8212; enough to buy a reliable used car to work as a taxi driver in Lubango. I will record every single donation on this page with proof of receipt and the name of the person who helped, if they allow. When the goal is reached and I buy the car, I will post a photograph of my family together with the car, holding a sign that says <em>Thank You</em>.</p>
-      <p>Please send via <strong>Binance Pay</strong> or cryptocurrency to the address below. After sending, please email me at <strong>petroniolucava@gmail.com</strong> with your name and the amount so I can add you to the record.</p>
+      <p>You can help in two ways: via <strong>Binance Pay</strong> / USDT cryptocurrency, or via a direct <strong>bank transfer</strong> (USD) using my US bank details below (powered by AirTM). After sending, please email <strong>petroniolucava@gmail.com</strong> with your name and the amount so I can add you to the record.</p>
     </div>
+    <!-- BANK TRANSFER -->
+    <div class="binance-box" style="margin-bottom:28px">
+      <div class="b-label" style="margin-bottom:4px">Bank Transfer (USD) — via AirTM</div>
+      <p style="font-size:0.85rem;color:var(--muted);margin-bottom:16px">Works with Zelle, Wise, PayPal, ACH, or any US bank transfer. The recipient name must match exactly.</p>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+        <div>
+          <div class="b-label">Bank Name</div>
+          <div class="b-address">Lead Bank</div>
+        </div>
+        <div>
+          <div class="b-label">Account Holder</div>
+          <div class="b-address">PETRÓNIO CRISPIM</div>
+        </div>
+        <div>
+          <div class="b-label">Account Number</div>
+          <div class="b-address">216008645566</div>
+        </div>
+        <div>
+          <div class="b-label">Routing Number (ACH)</div>
+          <div class="b-address">101019644</div>
+        </div>
+        <div style="grid-column:1/-1">
+          <div class="b-label">Bank Address</div>
+          <div class="b-address">1801 Main St., Kansas City, MO 64108, USA</div>
+        </div>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:12px">&#9888;&#65039; Bank policy: the beneficiary name on the transfer must match exactly <strong>PETRÓNIO CRISPIM</strong>. Transfers addressed to "Lead" or "Lead Bank" will be automatically rejected by the bank.</p>
+    </div>
+
     <div class="binance-box">
       <div style="display:grid;grid-template-columns:1fr auto;gap:24px;align-items:start;flex-wrap:wrap">
         <div style="display:flex;flex-direction:column;gap:14px">
@@ -233,7 +263,7 @@ h2{font-family:'Lora',serif;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:600;c
 <!-- FOOTER -->
 <div class="footer-note">
   <p class="quote">&#8220;While I work on this, I also pray. Every day I set aside time to ask God that whoever reads this page will feel something real. I believe He can move hearts. Maybe He moved yours to this page.&#8221;</p>
-  <p class="meta">&#169; 2026 Petr&#244;nio Crispim Humbula &nbsp;&#183;&nbsp; Lubango, Angola &nbsp;&#183;&nbsp; This page is updated manually as donations arrive.</p>
+  <p class="meta">&#169; 2026 Petr&#243;nio Crispim Humbula &nbsp;&#183;&nbsp; Lubango, Angola &nbsp;&#183;&nbsp; This page is updated manually as donations arrive.</p>
 </div>
 
 <script>
